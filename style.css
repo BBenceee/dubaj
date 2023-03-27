@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(136, 214, 238);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.hova {
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 2px;
+    border-style: none;
+    height: 150%;
+}
+
+.pici {
+    width: 50%;
+}
+
+.kicsikep{
+    height: 20px;
+    margin: 0;
+}
+
+.kepek {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    transition: all 1s ease;
+    cursor: pointer;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    background-image: url('https://media.tacdn.com/media/attractions-splice-spp-674x446/07/74/81/8c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.kepek:hover {
+    height: 200px;
+}
+
+.kepek p {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+}
+
+.kepek:hover p {
+    bottom: -200px;
+}
+
+
+
+.kepek2 {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    transition: all 1s ease;
+    cursor: pointer;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    background-image: url('https://i.ytimg.com/vi/0BXGh0EYJtE/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.kepek2:hover {
+    height: 200px;
+}
+
+.kepek2 p {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+}
+
+.kepek2:hover p {
+    bottom: -200px;
+}
+
+
+
+.kepek3 {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    transition: all 1s ease;
+    cursor: pointer;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    background-image: url('https://www.holidify.com/images/cmsuploads/compressed/shutterstock_228880075_20190822131717_20190822131816.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.kepek3:hover {
+    height: 200px;
+}
+
+.kepek3 p {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+}
+
+.kepek3:hover p {
+    bottom: -200px;
+}
+
+.kepekdoboz {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 20px 0;
+}
+
+.jog {
+    background-color: rgb(136, 214, 238);;
+}
+
+.felsoresz {
+    background-image: url(https://images.musement.com/cover/0002/45/dubai-skyline-at-dusk-jpg_header-144981.jpeg?lossless=false&auto=format&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    font-size: 200%;
+}
+
+.üdv {
+    position: absolute;
+    top: 30%;
+}
+
+label {
+    color: black;
+}
+
+.szallas {
+    background-color: rgb(136, 214, 238);
+    display: flex;
+    border-radius: 8px;
+}
+
+.szallaskep {
+    height: 200px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.szallasszoveg {
+    padding: 10px;
+}
+
+
+
+
+.hotel-doboz {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: rgba(136, 214, 238, 0.536);
+  }
+  
+  .hotel-kep {
+    width: max-content;
+    padding: 5px 5px 0 5px;
+  }
+  
+  .hotel-kep img {
+    width: 350px;
+    border-radius: 5px;
+  }
+  
+  .hotel-infok {
+    padding: 10px;
+  }
+  
+  .hotel-nev {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .hotel-plusz {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .hotel-plusz li {
+    margin-bottom: 5px;
+  }
+  
+  .hotel-ar {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .hotel-doboz:hover {
+    background-color: rgba(0, 255, 255, 0.091);
+}
